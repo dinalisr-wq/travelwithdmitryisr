@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Life Experiences — впечатления, сообщество и путешествия, которые меняют жизнь">
+  <title>Life Experiences — Это не просто поездки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Travel Advantage" class="logo__img" width="336" height="104">
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="travel-advantage.html">Платформа</a>
+        <a href="life-experiences.html" class="nav__active">Life Experiences</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="blog.html">Блог</a>
+        <a href="about.html">Обо мне</a>
+        <a href="https://free.traveladvantage.com/masterisr" class="nav__cta" target="_blank" rel="noopener noreferrer">Получить доступ</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero platform-hero experiences-hero" aria-label="Life Experiences — премиальные организованные путешествия">
+      <div class="blog-hero__bg" aria-hidden="true">
+        <img src="assets/life-experiences/life-experiences-hero.png" alt="Life Experiences — премиальные организованные путешествия с эксклюзивной программой" class="blog-hero__img" width="1600" height="900" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="section experiences-section">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <span class="section__label">Направления</span>
+          <h2 class="section__title">Life Experiences — реальные поездки</h2>
+        </header>
+        <div class="experiences-grid">
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/turin-alba.png" alt="Турин / Альба — Трюфельный опыт, 23–27 октября 2026" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/cebu.png" alt="Себу Сити Делюкс — 30 января – 3 февраля 2027" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/mongolia.png" alt="Монголия Deluxe — 3–7 сентября 2026" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/malaysia.png" alt="Малайзия Делюкс — 1–5 октября 2026" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/hawaii.png" alt="Гавайи Делюкс — 15–19 октября 2026" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/mauritius.png" alt="Маврикий — 29 октября – 2 ноября 2026" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/singapore.png" alt="Сингапур Делюкс — 17–21 декабря 2026" loading="lazy">
+          </article>
+          <article class="experiences-card card">
+            <img src="assets/life-experiences/japan-cruise.png" alt="Япония Круиз — 7–18 октября 2026" loading="lazy">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <span class="section__label">Сообщество</span>
+          <h2 class="section__title">Истории участников</h2>
+        </header>
+        <div class="stories-grid">
+          <blockquote class="story-card card">
+            <p>«Первый раз поехала одна — вернулась с десятком новых друзей и планами на три поездки вперёд.»</p>
+            <footer>Марина · предприниматель</footer>
+          </blockquote>
+          <blockquote class="story-card card">
+            <p>«На мероприятии в Анталии познакомился с партнёрами из пяти стран. Бизнес вырос вдвое.»</p>
+            <footer>Алексей · основатель стартапа</footer>
+          </blockquote>
+          <blockquote class="story-card card">
+            <p>«Думала, что путешествия — это дорого. Оказалось — это образ жизни, доступный каждому.»</p>
+            <footer>Елена · мама двоих детей</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <span class="section__label">Мероприятия</span>
+          <h2 class="section__title">Видео и фотографии общения</h2>
+        </header>
+        <div class="videos-grid">
+          <article class="videos-grid__item card">
+            <h3 class="videos-grid__title">Сообщество / Community</h3>
+            <video class="videos-grid__video" src="assets/videos/community.mp4" controls playsinline preload="metadata" title="Сообщество / Community"></video>
+          </article>
+          <article class="videos-grid__item card">
+            <h3 class="videos-grid__title">Это жизнь! / This is Life!</h3>
+            <video class="videos-grid__video" src="assets/videos/this-is-life.mp4" controls playsinline preload="metadata" title="Это жизнь! / This is Life!"></video>
+          </article>
+          <article class="videos-grid__item card">
+            <h3 class="videos-grid__title">Опыт / Experiences</h3>
+            <video class="videos-grid__video" src="assets/videos/experiences.mp4" controls playsinline preload="metadata" title="Опыт / Experiences"></video>
+          </article>
+          <article class="videos-grid__item card">
+            <h3 class="videos-grid__title">Рост / Growth</h3>
+            <video class="videos-grid__video" src="assets/videos/growth.mp4" controls playsinline preload="metadata" title="Рост / Growth"></video>
+          </article>
+        </div>
+        <ul class="tags-list">
+          <li>Предприниматели</li>
+          <li>Лидеры</li>
+          <li>Новые знакомства</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="container">
+        <blockquote class="quote-section__text">
+          <p>Иногда путешествие меняет не страну.<br>Оно меняет <em>человека</em>.</p>
+        </blockquote>
+        <div class="quote-section__action">
+          <a href="access.html" class="btn btn--primary">Присоединиться</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--footer">
+        <img src="assets/logo.png" alt="Travel Advantage" class="logo__img logo__img--footer" width="296" height="92">
+      </a>
+      <p class="footer__quote">Жизнь не спрашивает, сколько раз ты упал. Она смотрит, поднялся ли ты снова.</p>
+      <p class="footer__copy">© 2026 Travel Advantage. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

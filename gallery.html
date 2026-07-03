@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Галерея Travel Advantage — фото из поездок: Италия, Анталия, Кейсария">
+  <title>Галерея — Travel Advantage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Travel Advantage" class="logo__img" width="336" height="104">
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="travel-advantage.html">Платформа</a>
+        <a href="life-experiences.html">Life Experiences</a>
+        <a href="gallery.html" class="nav__active">Галерея</a>
+        <a href="blog.html">Блог</a>
+        <a href="about.html">Обо мне</a>
+        <a href="https://free.traveladvantage.com/masterisr" class="nav__cta" target="_blank" rel="noopener noreferrer">Получить доступ</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <div class="blog-hero__bg" aria-hidden="true">
+        <img src="assets/gallery/gallery-hero.png" alt="" class="blog-hero__img" width="1600" height="900" fetchpriority="high">
+      </div>
+      <div class="container blog-hero__content">
+        <h1 class="blog-hero__title">Путешествия изменили мою жизнь</h1>
+        <p class="blog-hero__lead">Когда-то я думал, что путешествия остались в прошлом. Сегодня они стали частью моей истории.</p>
+        <div class="blog-hero__divider" aria-hidden="true">
+          <span class="blog-hero__star">&#10022;</span>
+          <span class="blog-hero__line"></span>
+        </div>
+        <p class="blog-hero__note">
+          <span class="blog-hero__camera" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7h3l2-2h6l2 2h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </span>
+          <span class="blog-hero__note-text">Каждая фотография — это история, люди и эмоции.</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="italy">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <span class="section__label">Направление</span>
+          <h2 class="section__title">Италия</h2>
+          <p class="gallery-section__lead">Милан — сентябрь 2022</p>
+        </header>
+        <figure class="gallery-collage card">
+          <img src="assets/gallery/italy/italy-collage.png" alt="Италия — коллаж из поездки в Милан" loading="lazy">
+        </figure>
+        <div class="gallery-grid">
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/milano-duomo.png" alt="Собор Duomo di Milano на площади Duomo" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/milano-galleria.png" alt="Galleria Vittorio Emanuele II и Duomo di Milano" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/milano-monumento.png" alt="Площадь Duomo — монумент Vittorio Emanuele II" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/arco-della-pace.png" alt="Arco della Pace — триумфальная арка, Милан" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/arco-della-pace-portrait.png" alt="Arco della Pace, Милан" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/castello-sforzesco.png" alt="Castello Sforzesco — замок и фонтан, Милан" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/castello-sforzesco-dvor.png" alt="Двор Castello Sforzesco, Милан" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/milano-tram-cafe.png" alt="Уличное кафе и жёлтый трамвай, Милан" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/cannoli-espresso.png" alt="Cannoli и espresso в кафе, Милан" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/italy/pizza.png" alt="Пizza в итальянском ресторане" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt gallery-section" id="antalya">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <span class="section__label">Турция</span>
+          <h2 class="section__title">Анталия</h2>
+          <p class="gallery-section__lead">Курортный отель — отдых у моря</p>
+        </header>
+        <figure class="gallery-collage card">
+          <img src="assets/gallery/antalya/antalya-collage.png" alt="Анталия — коллаж из поездки" loading="lazy">
+        </figure>
+        <div class="gallery-grid">
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-21.png" alt="Отдых на территории курорта, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-22.png" alt="Встреча в лобби отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-01.png" alt="Территория курортного отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-02.png" alt="Прогулка по отелю, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-03.png" alt="Курортная зона, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-04.png" alt="Отдых в отеле, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-05.png" alt="Парк и беседка на территории отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-06.png" alt="Курортный отель на фоне голубого неба, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-07.png" alt="Бассейн и зона отдыха, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-08.png" alt="Сад и архитектурная беседка, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-09.png" alt="Главный вход в отель, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-10.png" alt="Бассейн и территория курорта, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-11.png" alt="Аллея и здание отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-12.png" alt="Лобби отеля с пальмами, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-13.png" alt="Интерьер отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-14.png" alt="Холл отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-15.png" alt="Интерьер и декор отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-16.png" alt="Лобби с лифтами и зелёной зоной, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-17.png" alt="Роскошный интерьер отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-18.png" alt="Компания в лобби отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-19.png" alt="Отдых в лобби отеля, Анталия" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/antalya/antalya-20.png" alt="Espresso в кафе отеля, Анталия" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="caesarea">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <span class="section__label">Израиль</span>
+          <h2 class="section__title">Кейсария</h2>
+          <p class="gallery-section__lead">Древний город у Средиземного моря</p>
+        </header>
+        <div class="gallery-grid">
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-01.png" alt="Древние арки и руины Кейсарии" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-02.png" alt="Арочный проём в каменных стенах Кейсарии" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-03.png" alt="Пляж и древние руины у моря, Кейсария" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-04.png" alt="Вид на море и крепость Кейсарии" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-05.png" alt="Памятник у древних стен Кейсарии" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-06.png" alt="Археологический парк Кейсарии и Средиземное море" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-07.png" alt="Береговая линия Кейсарии с пальмами" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-08.png" alt="Историческое здание на скале у моря, Кейсария" loading="lazy">
+          </figure>
+          <figure class="gallery-grid__item card">
+            <img src="assets/gallery/caesarea/caesarea-09.png" alt="Современная набережная и архитектура Кейсарии" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-block">
+      <div class="container cta-block__inner">
+        <h2 class="cta-block__title">Хотите так же путешествовать?</h2>
+        <a href="https://free.traveladvantage.com/masterisr" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">Получить гостевой доступ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--footer">
+        <img src="assets/logo.png" alt="Travel Advantage" class="logo__img logo__img--footer" width="296" height="92">
+      </a>
+      <p class="footer__quote">Жизнь не спрашивает, сколько раз ты упал. Она смотрит, поднялся ли ты снова.</p>
+      <p class="footer__copy">© 2026 Travel Advantage. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

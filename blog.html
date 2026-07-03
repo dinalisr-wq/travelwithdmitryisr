@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Блог Travel Advantage — клубные цены, баллы лояльности, Life Experience и выгодные путешествия из Израиля">
+  <title>Блог — Travel Advantage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Travel Advantage" class="logo__img" width="336" height="104">
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="travel-advantage.html">Платформа</a>
+        <a href="life-experiences.html">Life Experiences</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="blog.html" class="nav__active">Блог</a>
+        <a href="about.html">Обо мне</a>
+        <a href="https://free.traveladvantage.com/masterisr" class="nav__cta" target="_blank" rel="noopener noreferrer">Получить доступ</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <div class="blog-hero__bg" aria-hidden="true">
+        <img src="assets/blog/blog-hero.png" alt="" class="blog-hero__img" width="1600" height="900" fetchpriority="high">
+      </div>
+      <div class="container blog-hero__content">
+        <h1 class="blog-hero__title">Путешествия глазами практика</h1>
+        <p class="blog-hero__lead">Личный опыт, реальные бронирования и истории людей.</p>
+        <div class="blog-hero__divider" aria-hidden="true">
+          <span class="blog-hero__star">&#10022;</span>
+          <span class="blog-hero__line"></span>
+        </div>
+        <p class="blog-hero__note">
+          <span class="blog-hero__camera" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7h3l2-2h6l2 2h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </span>
+          <span class="blog-hero__note-text">Каждая фотография — это история, люди и эмоции.</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--alt blog-cases">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <h2 class="section__title">Реальные кейсы. Реальные люди. Реальная экономия.</h2>
+          <p class="real-bookings__intro">Те же отели и даты — сравнение публичной цены и бронирования через Travel Advantage</p>
+        </header>
+        <div class="real-bookings">
+          <article class="real-booking card">
+            <div class="real-booking__shot">
+              <img src="assets/bookings/belek-asteria.png" alt="Asteria Family Resort Belek — Booking $717 и Travel Advantage $528" loading="lazy">
+            </div>
+            <div class="real-booking__body">
+              <span class="real-booking__save">Экономия $189</span>
+              <h3 class="real-booking__title">Asteria Family Resort, Белек</h3>
+              <p class="real-booking__meta">4 ночи · All Inclusive · 2 взрослых</p>
+              <div class="real-booking__prices">
+                <div class="real-booking__price real-booking__price--other">
+                  <span>Booking</span>
+                  <strong>$717</strong>
+                </div>
+                <div class="real-booking__price real-booking__price--club">
+                  <span>Travel Advantage</span>
+                  <strong>$528</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="real-booking card">
+            <div class="real-booking__shot">
+              <img src="assets/bookings/bali-ayodya.png" alt="Ayodya Resort Bali — Booking $1 980 и Travel Advantage $1 543" loading="lazy">
+            </div>
+            <div class="real-booking__body">
+              <span class="real-booking__save">Экономия $437</span>
+              <h3 class="real-booking__title">Ayodya Resort, Бали</h3>
+              <p class="real-booking__meta">8 ночей · Nusa Dua · 2 взрослых + ребёнок</p>
+              <div class="real-booking__prices">
+                <div class="real-booking__price real-booking__price--other">
+                  <span>Booking</span>
+                  <strong>$1 980</strong>
+                </div>
+                <div class="real-booking__price real-booking__price--club">
+                  <span>Travel Advantage</span>
+                  <strong>$1 543</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="real-booking card">
+            <div class="real-booking__shot">
+              <img src="assets/bookings/budapest.png" alt="Al Habtoor Palace Budapest — Booking $1 788 и Travel Advantage $1 189" loading="lazy">
+            </div>
+            <div class="real-booking__body">
+              <span class="real-booking__save">Экономия $599</span>
+              <h3 class="real-booking__title">Al Habtoor Palace, Будапешт</h3>
+              <p class="real-booking__meta">Preferred Hotels &amp; Resorts</p>
+              <div class="real-booking__prices">
+                <div class="real-booking__price real-booking__price--other">
+                  <span>Booking</span>
+                  <strong>$1 788</strong>
+                </div>
+                <div class="real-booking__price real-booking__price--club">
+                  <span>Travel Advantage</span>
+                  <strong>$1 189</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="real-booking card">
+            <div class="real-booking__shot">
+              <img src="assets/bookings/paris-las-vegas.png" alt="Paris Las Vegas — Booking $251 и Travel Advantage $77" loading="lazy">
+            </div>
+            <div class="real-booking__body">
+              <span class="real-booking__save">Экономия $174</span>
+              <h3 class="real-booking__title">Paris Las Vegas, Лас-Вегас</h3>
+              <p class="real-booking__meta">3 ночи · 2 взрослых · Standard Bed</p>
+              <div class="real-booking__prices">
+                <div class="real-booking__price real-booking__price--other">
+                  <span>Booking</span>
+                  <strong>$251</strong>
+                </div>
+                <div class="real-booking__price real-booking__price--club">
+                  <span>Travel Advantage</span>
+                  <strong>$77</strong>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="real-bookings__note">Скриншоты реальных сравнений. Цены актуальны на момент бронирования.</p>
+      </div>
+    </section>
+
+    <section class="section blog-page">
+      <div class="container">
+        <div class="blog-grid">
+          <article class="blog-card">
+            <a href="blog/dohod-na-puteshestviyah.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/dohod-na-puteshestviyah.jpg" alt="Можно ли зарабатывать на путешествиях: разбор модели" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-06-18">2026-06-18</time>
+              <h2 class="blog-card__title">Можно ли зарабатывать на путешествиях: разбор модели</h2>
+              <p class="blog-card__excerpt">Важно. Все суммы в этой статье приведены исключительно как примеры, а не гарантия результата. Доход зависит от ваших усилий, времени, навыков и других факторов; многие участники не получают дохода...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/luchshie-napravleniya-iz-izrailya-2026.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/luchshie-napravleniya-iz-izrailya-2026.jpg" alt="Лучшие направления из Израиля в 2026 году" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-06-15">2026-06-15</time>
+              <h2 class="blog-card__title">Лучшие направления из Израиля в 2026 году</h2>
+              <p class="blog-card__excerpt">Лучшие направления из Израиля в 2026 году по соотношению цены, времени в пути и впечатлений: ОАЭ (Дубай), Мальдивы, Кипр, Греция и средиземноморские круизы. Все они удобны для вылета из аэропорта Б...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/dubai-gid.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/dubai-gid.jpg" alt="Дубай: гид по премиальному отдыху" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-06-03">2026-06-03</time>
+              <h2 class="blog-card__title">Дубай: гид по премиальному отдыху</h2>
+              <p class="blog-card__excerpt">Дубай — один из самых удобных премиальных маршрутов из Израиля: ~3,5 часа лёта, прямые рейсы, отели мирового уровня и сервис без компромиссов. Разберём, когда ехать, где жить и как не переплачивать...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/maldivy-gid.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/maldivy-gid.jpg" alt="Мальдивы: как поехать дешевле" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-05-28">2026-05-28</time>
+              <h2 class="blog-card__title">Мальдивы: как поехать дешевле</h2>
+              <p class="blog-card__excerpt">Мальдивы давно считаются «дорогим» направлением, но реальная цена сильно зависит от того, как и где вы бронируете. Разберём, как поехать на белоснежные атоллы заметно дешевле, не теряя в уровне. Ко...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/kak-oplatit-otpusk-ballami.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/kak-oplatit-otpusk-ballami.jpg" alt="Как оплатить отпуск баллами Loyalty Points (1 балл = $1)" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-05-12">2026-05-12</time>
+              <h2 class="blog-card__title">Как оплатить отпуск баллами Loyalty Points (1 балл = $1)</h2>
+              <p class="blog-card__excerpt">Оплатить отпуск баллами Loyalty Points в MWR Life можно прямо в личном кабинете при бронировании: вы выбираете отель или круиз и применяете баллы по курсу 1 балл = $1. Баллами покрывают часть или,...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/kak-puteshestvovat-deshevle.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/kak-puteshestvovat-deshevle.jpg" alt="Как путешествовать на 30–40% дешевле" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-05-12">2026-05-12</time>
+              <h2 class="blog-card__title">Как путешествовать на 30–40% дешевле</h2>
+              <p class="blog-card__excerpt">Путешествия дешевеют не за счёт «секретных промокодов», а за счёт того, по какой цене вы покупаете изначально. Обычные сайты вроде Booking или Expedia показывают розничную цену с заложенной комисс...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/life-experience-chto-eto.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/life-experience-chto-eto.jpg" alt="Life Experience®: что такое групповые туры клуба" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-04-21">2026-04-21</time>
+              <h2 class="blog-card__title">Life Experience®: что такое групповые туры клуба</h2>
+              <p class="blog-card__excerpt">Life Experience® — это фирменный формат групповых поездок клуба MWR Life. По сути это готовые премиальные туры «под ключ»: продуманная программа, отели 4–5★, сопровождение и фиксированная цена. Раз...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/travel-club-vs-booking-aviasales.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/travel-club-vs-booking-aviasales.jpg" alt="Travel-клуб vs Booking и Aviasales: где выгоднее" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-04-20">2026-04-20</time>
+              <h2 class="blog-card__title">Travel-клуб vs Booking и Aviasales: где выгоднее</h2>
+              <p class="blog-card__excerpt">Коротко: Booking и Aviasales выгоднее для разовых бюджетных поездок, потому что бесплатны и шире по ассортименту. Travel-клуб MWR Life выгоднее для тех, кто путешествует 2+ раза в год в сегменте 4–...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/travel-club-vs-booking.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/travel-club-vs-booking.jpg" alt="Travel-клуб vs обычное бронирование: в чём разница" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-04-08">2026-04-08</time>
+              <h2 class="blog-card__title">Travel-клуб vs обычное бронирование: в чём разница</h2>
+              <p class="blog-card__excerpt">«Зачем мне клуб, если есть Booking?» — самый частый вопрос. Ответ зависит от того, как часто и насколько премиально вы путешествуете. Разберём оба подхода честно, без преувеличений. Коротко: в чём ...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/chto-takoe-mwr-life.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/chto-takoe-mwr-life.jpg" alt="Что такое MWR Life: как работает travel-клуб (простыми словами)" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-04-02">2026-04-02</time>
+              <h2 class="blog-card__title">Что такое MWR Life: как работает travel-клуб (простыми словами)</h2>
+              <p class="blog-card__excerpt">MWR Life — это международный travel-клуб (membership-сервис для путешествий), который даёт участникам доступ к оптовым ценам на отели, перелёты и круизы в 200+ странах. Ключевые элементы — сервис T...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/puteshestviya-dlya-russkoyazychnyh-v-izraile.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/puteshestviya-dlya-russkoyazychnyh-v-izraile.jpg" alt="Путешествия для русскоязычных в Израиле: как организовать отдых выгодно" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-03-17">2026-03-17</time>
+              <h2 class="blog-card__title">Путешествия для русскоязычных в Израиле: как организовать отдых выгодно</h2>
+              <p class="blog-card__excerpt">Из Израиля удобно летать почти куда угодно: короткие перелёты в Европу, прямые рейсы на Кипр, в Грецию, ОАЭ и на Мальдивы. Но цены на отели и круизы для местного путешественника часто завышены. Раз...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/deshevye-puteshestviya-iz-izrailya.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/deshevye-puteshestviya-iz-izrailya.jpg" alt="Дешёвые путешествия из Израиля: Тель-Авив, Хайфа, Бен-Гурион" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-03-05">2026-03-05</time>
+              <h2 class="blog-card__title">Дешёвые путешествия из Израиля: Тель-Авив, Хайфа, Бен-Гурион</h2>
+              <p class="blog-card__excerpt">Дешевле всего путешествовать из Израиля помогают три вещи: бронирование за 2–3 месяца, гибкие даты вокруг пиков сезона и доступ к клубным (оптовым) ценам. Главный хаб — аэропорт Бен-Гурион (TLV) ря...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/kruizy-vygodno.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/life-experiences/japan-cruise.png" alt="Круизы по клубным ценам: как это работает" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-03-05">2026-03-05</time>
+              <h2 class="blog-card__title">Круизы по клубным ценам: как это работает</h2>
+              <p class="blog-card__excerpt">Круиз — это формат, где разница между розничной и клубной ценой максимальна. Линии охотно дают закрытым сообществам тарифы ниже публичных, чтобы заполнять каюты. Разберём, как этим пользоваться и с...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/loyalty-points-razbor.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/loyalty-points-razbor.jpg" alt="Loyalty Points: как работают баллы MWR Life (1 балл = $1)" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-02-22">2026-02-22</time>
+              <h2 class="blog-card__title">Loyalty Points: как работают баллы MWR Life (1 балл = $1)</h2>
+              <p class="blog-card__excerpt">Loyalty Points — это внутренняя «валюта» клуба, которой можно реально оплачивать поездки. Главное правило простое: 1 балл = $1. Разберём, откуда баллы берутся, на что их тратить и как накопить бол...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/travel-club-izrail-russkoyazychnym.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/gallery/caesarea/caesarea-03.png" alt="Travel-клуб в Израиле: как русскоязычным путешествовать выгодно" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-02-10">2026-02-10</time>
+              <h2 class="blog-card__title">Travel-клуб в Израиле: как русскоязычным путешествовать выгодно</h2>
+              <p class="blog-card__excerpt">Travel-клуб в Израиле — это закрытое сообщество, которое даёт доступ к оптовым (wholesale) тарифам на отели, перелёты и круизы, недоступным на публичных сайтах. Русскоязычные путешественники эконом...</p>
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <a href="blog/elite-vs-elite-turbo.html" class="blog-card__link">
+              <div class="blog-card__media">
+                <img src="assets/blog/paris-esmeralda.png" alt="Elite vs Elite Turbo: какой тариф выбрать" class="blog-card__img" width="900" height="506" loading="lazy">
+              </div>
+              <time class="blog-card__date" datetime="2026-01-29">2026-01-29</time>
+              <h2 class="blog-card__title">Elite vs Elite Turbo: какой тариф выбрать</h2>
+              <p class="blog-card__excerpt">Вступая в клуб, вы выбираете уровень членства. Два основных — Elite и Elite Turbo. Оба дают доступ к клубным ценам и баллам лояльности, но различаются скоростью накопления и набором преимуществ. Р...</p>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt cta-block">
+      <div class="container cta-block__inner">
+        <h2 class="cta-block__title">Хотите проверить цены на платформе?</h2>
+        <a href="https://free.traveladvantage.com/masterisr" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">Получить гостевой доступ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="logo logo--footer">
+        <img src="assets/logo.png" alt="Travel Advantage" class="logo__img logo__img--footer" width="296" height="92">
+      </a>
+      <p class="footer__quote">Жизнь не спрашивает, сколько раз ты упал. Она смотрит, поднялся ли ты снова.</p>
+      <p class="footer__copy">© 2026 Travel Advantage. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
